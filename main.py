@@ -28,7 +28,7 @@ def H(counts, n):
         entropy += (counts[i] / count_of_gramms) * log(counts[i] / count_of_gramms)
         # print(counts[i]/count_of_gramms)
     entropy = -entropy/n
-    return entropy, log(31**n)
+    return entropy, log(38**n)
 
 def remove_symbols(string):
     remove_symbols = [',', '.', '!', '\"', '-', ' ', ';', ':', '?', '–']
