@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+test.py
+old.py
+*.zip
+__pycache__
 # Compiled Object files
 *.slo
 *.lo
